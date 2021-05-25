@@ -20,7 +20,7 @@
     "cypress:run": "run-s -n -c cypress:run-no-badge report-summary-mocha-full",
     "build": "rollup -c",
     "build:watch": "rollup -c --watch",
-    "start": "web-dev-server --node-resolve --port '$PORT' --hostname 0.0.0.0 -a svgpack7v",
+    "start": "web-dev-server --node-resolve --port $PORT --hostname 0.0.0.0 -a svgpack7v",
     "start:watch": "web-dev-server --node-resolve --watch",
     "cypress:open": "run-p start cypress:open-no-start",
     "cypress:open-no-start": "cypress open",
